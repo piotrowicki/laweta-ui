@@ -2,7 +2,7 @@
   <div id="app">
     <b-nav>
       <b-nav-item active>
-        <router-link to="/rent">RENT</router-link>
+        <router-link to="/offer">OFERTA</router-link>
       </b-nav-item>
     </b-nav>
 
