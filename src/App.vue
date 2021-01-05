@@ -5,6 +5,9 @@
       <b-nav-item>
         <router-link to="/offer">OFERTA</router-link>
       </b-nav-item>
+      <b-nav-item>
+        <router-link to="/contact">KONTAKT</router-link>
+      </b-nav-item>
     </b-nav>
     <div>
       <router-view />

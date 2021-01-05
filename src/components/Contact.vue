@@ -1,5 +1,5 @@
 <template>
-    <div>Offer</div>
+    <div>Contact</div>
 </template>
 
 <script>
