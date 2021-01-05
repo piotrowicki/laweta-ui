@@ -1,11 +1,11 @@
 <template>
   <div id="app">
+    <div id="stripped-background" />
     <b-nav>
-      <b-nav-item active>
+      <b-nav-item>
         <router-link to="/offer">OFERTA</router-link>
       </b-nav-item>
     </b-nav>
-
     <div>
       <router-view />
     </div>
@@ -18,11 +18,4 @@ export default {
 };
 </script>
 
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>
+<style scoped src="@/assets/css/app.css">
