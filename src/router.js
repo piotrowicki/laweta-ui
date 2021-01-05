@@ -4,10 +4,16 @@ import Offer from './components/Offer'
 
 Vue.use(Router);
 
-export default new Router({
+export const router = new Router({
     mode: "history",
     routes: [
         { path: '/', redirect: '/offer' },
-        { path: '/offer', component: Offer }
+        { path: '/offer', component: Offer, meta: { title: 'Oferta' } }
     ]
 });
+
+router.beforeEach((to, from, next) => {
+    const prefix = 'Laweta Ostróda | '
+    document.title = prefix + to.meta.title
+    next();
+})
