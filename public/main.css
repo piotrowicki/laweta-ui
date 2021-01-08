@@ -1,12 +1,5 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-#app {
-    background: url('metal.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+html, body {
+    background: url('metal.jpg') no-repeat center center fixed;
     background-size: cover;
-}
+    height: 100%;
+  }
