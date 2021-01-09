@@ -10,15 +10,21 @@
       </b-nav-item>
     </b-nav>
     <div>
-      <div class="laweta">
-        <img src="~@/assets/laweta2.gif" alt="laweta" />
-        <div class="laweta-description">
-          <p id="log24" class="blink-me">24h</p>
-          <p class="osobowe-busy-tir">OSOBOWE BUSY TIR</p>
-          <p class="pomoc-drogowa-ostroda">POMOC DROGOWA OSTRÓDA</p>
-          <p id="phone" class="blink-me">505 582 392</p>
-        </div>
-      </div>
+      <b-container fluid="md" class="laweta">
+        <b-row>
+          <b-col cols="2"></b-col>
+          <b-col cols="8" class="laweta-description">
+            <img src="@/assets/laweta2.gif" />
+            <div class="align">
+              <span id="log24" class="blink-me">24h</span>
+              <span class="osobowe-busy-tir">OSOBOWE BUSY TIR</span>
+              <span class="pomoc-drogowa-ostroda">POMOC DROGOWA OSTRÓDA</span>
+              <span id="phone" class="blink-me">505 582 392</span>
+            </div>
+          </b-col>
+          <b-col cols="2"></b-col>
+        </b-row>
+      </b-container>
       <router-view />
     </div>
   </div>

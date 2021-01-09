@@ -6,7 +6,7 @@
 
 .nav {
     float: right;
-    margin-right: 100px;
+    margin-right: 10%;
 }
 
 .nav ul li {
@@ -16,11 +16,12 @@
 
 .nav a:link, a:visited, a:hover {
     color: #000;
-    font-size: 22px;
+    font-size: 2vw;
 }
 
 .nav li a:link {
     text-decoration: none;
+    font-weight: bold;
 }
 
 .nav li a:hover {
@@ -29,48 +30,55 @@
 }
 
 .laweta {
-    margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 15%;
+}
+
+.laweta .col-8>img {
+    max-width: 100%;
+    height: auto;
 }
 
 .laweta-description {
     position: relative;
 }
 
-
-#log24 {
-    letter-spacing: 1px;
-    font-size: 100px;
+.laweta-description .align {
     position: absolute;
-    bottom: 285px;
-    left: 280px;
-   
+    bottom: 50%;
+    right: 40%;
 }
 
-#phone {
-    letter-spacing: 1px;
-    font-size: 80px;
-    position: absolute;
-    bottom: 180px;
+#log24 {
+    display: block;
+    letter-spacing: 0.1vw;
+    font-size: 10.5vw;
+    margin-bottom: -6vw;
+    margin-left: 21vw;
 }
 
 .osobowe-busy-tir {
     text-shadow: 0px 2px 3px #555;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 30px;
-    letter-spacing: 7px;
-    position: absolute;
-    bottom: 310px;
+    font-size: 2vw;
+    letter-spacing: 0.6vw;
+    display: block;
+    margin-bottom: -2vw;
 }
 
 .pomoc-drogowa-ostroda {
     color: #000;
     text-shadow: 0px 2px 3px #555;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 60px;
-    letter-spacing: -2px;
-    position: absolute;
-    bottom: 245px;
+    font-size: 4.5vw;
+    letter-spacing: 0.05vw;
+    display: block;
+}
+
+#phone {
+    letter-spacing: 0.5vw;
+    font-size: 6vw;
+    display: block;
+    margin-top: -4vw;
 }
 
 .blink-me {
