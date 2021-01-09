@@ -27,3 +27,96 @@
     color: #f3822d;
     transition: color 0.5s ease-in;
 }
+
+.laweta {
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.laweta-description {
+    position: relative;
+}
+
+
+#log24 {
+    letter-spacing: 1px;
+    font-size: 100px;
+    position: absolute;
+    bottom: 285px;
+    left: 280px;
+   
+}
+
+#phone {
+    letter-spacing: 1px;
+    font-size: 80px;
+    position: absolute;
+    bottom: 180px;
+}
+
+.osobowe-busy-tir {
+    text-shadow: 0px 2px 3px #555;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    letter-spacing: 7px;
+    position: absolute;
+    bottom: 310px;
+}
+
+.pomoc-drogowa-ostroda {
+    color: #000;
+    text-shadow: 0px 2px 3px #555;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+    letter-spacing: -2px;
+    position: absolute;
+    bottom: 245px;
+}
+
+.blink-me {
+    font-weight: bold;
+    text-shadow: 0px 2px 3px #555;
+    letter-spacing: 4px;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 0.5s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-name: blinker;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes blinker {
+    0% {
+        color: #000;
+    }
+    100% {
+        color: #f3822d;
+    }
+}
+
+@-webkit-keyframes blinker {
+    0% {
+        color: #000;
+    }
+    100% {
+        color: #f3822d;
+    }
+}
+
+@keyframes blinker {
+    0% {
+        color: #000;
+    }
+    100% {
+        color: #f3822d;
+    }
+}

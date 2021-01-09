@@ -10,6 +10,15 @@
       </b-nav-item>
     </b-nav>
     <div>
+      <div class="laweta">
+        <img src="~@/assets/laweta2.gif" alt="laweta" />
+        <div class="laweta-description">
+          <p id="log24" class="blink-me">24h</p>
+          <p class="osobowe-busy-tir">OSOBOWE BUSY TIR</p>
+          <p class="pomoc-drogowa-ostroda">POMOC DROGOWA OSTRÓDA</p>
+          <p id="phone" class="blink-me">505 582 392</p>
+        </div>
+      </div>
       <router-view />
     </div>
   </div>
