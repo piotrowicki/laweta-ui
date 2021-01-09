@@ -1,5 +1,5 @@
 #stripped-background {
-    height: 50px;
+    height: 30px;
     background: url('~@/assets/stripe.jpg');
     width: 100%;
 }
@@ -31,21 +31,20 @@
 
 .laweta {
     margin-top: 15%;
-}
-
-.laweta .col-8>img {
-    max-width: 100%;
-    height: auto;
-}
-
-.laweta-description {
     position: relative;
+    left: 10%;
 }
 
-.laweta-description .align {
+.laweta-img {
+    max-width: 80%;
+    height: auto;
+   
+}
+
+.align {
     position: absolute;
-    bottom: 50%;
-    right: 40%;
+    bottom: 58%;
+    right: 52%;
 }
 
 #log24 {
@@ -127,4 +126,13 @@
     100% {
         color: #f3822d;
     }
+}
+
+footer {
+    height: 300px;
+    background: url('~@/assets/tweed.png');
+    width: 100%;
+    position: sticky;
+    height: 300px;
+    top: calc( 100vh - 300px);
 }
