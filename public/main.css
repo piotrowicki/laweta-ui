@@ -1,5 +1,5 @@
-html, body {
-    background: url('metal.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-  }
+body {
+  background: url('metal.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
