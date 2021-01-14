@@ -3,6 +3,8 @@
     display: flex;
     /* Direction of the items, can be row or column */
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(15px + 1vw)
 }
 
 header {
@@ -142,6 +144,37 @@ main {
 }
 
 footer {
-    min-height: 20vw;
     background: url('~@/assets/tweed.png');
+}
+
+@media screen and (max-width: 600px) {
+    footer .map {
+        display: none;
+    }
+}
+
+.footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #ddd;
+    font-size: calc(10px + 1vw)
+}
+
+.footer h2 {
+    font-weight: bold;
+    font-size: calc(10px + 1.5vw)
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer a {
+    color: #ddd;
+    font-size: calc(10px + 1vw)
+}
+
+.footer a:hover {
+    color: #fff;
+    font-size: calc(10px + 1vw)
 }

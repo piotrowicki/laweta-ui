@@ -8,10 +8,11 @@
 #serwis1, #serwis11, #serwis12 {
     font-family: 'Open Sans', sans-serif;
     line-height: 20px;
+    font-size: calc(10px + 0.5vw)
 }
 
 .title {
-    font-size: 3vmax;
+    font-size: 2.5vmax;
 }
 
 hr {
