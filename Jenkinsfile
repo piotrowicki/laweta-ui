@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker stack deploy --compose-file laweta-compose.yml laweta'
+                sh 'docker service update laweta_ui'
             }
         }
     }
