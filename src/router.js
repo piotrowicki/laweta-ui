@@ -8,8 +8,7 @@ Vue.use(Router);
 export const router = new Router({
     mode: "history",
     routes: [
-        { path: '/', redirect: '/main' },
-        { path: '/main', component: Offer, meta: { title: 'Oferta' } },
+        { path: '/', component: Offer, meta: { title: 'Oferta' } },
         { path: '/contact', component: Contact, meta: { title: 'Kontakt' } }
     ]
 });
