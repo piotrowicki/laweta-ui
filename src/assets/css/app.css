@@ -139,37 +139,3 @@ header {
 main {
     flex: 1;
 }
-
-footer {
-    background: url('~@/assets/tweed.png');
-}
-
-@media screen and (max-width: 600px) {
-    footer .map {
-        display: none;
-    }
-}
-
-.footer {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    color: #ddd;
-}
-
-.footer h2 {
-    font-weight: bold;
-    font-size: calc(8px + 1.2vw)
-}
-
-.footer ul li {
-    list-style: none;
-}
-
-.footer a {
-    color: #ddd;
-}
-
-.footer a:hover {
-    color: #fff;
-    font-size: calc(8px + 0.6vw);
-}
