@@ -21,6 +21,9 @@
         <span id="phone" class="blink-me">505 582 392</span>
       </div>
     </b-container>
+    <b-container>
+      <Slider />
+    </b-container>
     <main>
       <b-container>
         <router-view />
@@ -31,7 +34,7 @@
         <b-row>
           <b-col cols="3">
             <h2>Partnerzy:</h2>
-            <img style="width: 60%;" src="@/assets/dg.jpg" />
+            <img style="width: 60%" src="@/assets/dg.jpg" />
           </b-col>
           <b-col cols="6">
             <h2>Pomoc Drogowa Ostróda:</h2>
@@ -59,9 +62,14 @@
 </template>
 
 <script>
+import Slider from "./components/Slider.vue";
+
 export default {
   name: "App",
+  components: {
+    Slider,
+  },
 };
 </script>
 
-<style scoped src="@/assets/css/app.css">
+<style scoped src="@/assets/css/app.css"/>
