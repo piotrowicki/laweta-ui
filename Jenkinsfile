@@ -13,6 +13,11 @@ pipeline {
             steps {
                 sh 'docker build -t ${IMAGE_NAME} .'
             }
-        }      
+        }
+        stage('Deploy') {
+            steps {
+                sh 'docker stack deploy --compose-file laweta-compose.yml laweta'
+            }
+        }
     }
 }
