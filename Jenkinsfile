@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'laweta-image'
+        IMAGE_NAME = 'laweta-ui-image'
     }
     stages {
         stage('Preparation') {
