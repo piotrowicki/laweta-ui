@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker service update laweta_ui'
+                sh 'docker service update --force laweta_ui'
             }
         }
     }
