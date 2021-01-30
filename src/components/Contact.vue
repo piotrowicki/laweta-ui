@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-alert show variant="info">Pracujemy nad tym.</b-alert>
+    <b-alert show variant="info">Strona w budowie.</b-alert>
   </b-container>
 </template>
 
