@@ -3,11 +3,11 @@
     <b-container class="footer">
       <b-row>
         <b-col cols="3">
-          <h2>Partnerzy:</h2>
+          <p class="title">Partnerzy:</p>
           <img style="width: 60%" src="@/assets/dg.jpg" />
         </b-col>
         <b-col cols="6">
-          <h2>Pomoc Drogowa Ostróda:</h2>
+          <p class="title">Pomoc Drogowa Ostróda:</p>
           <div>
             <ul>
               <li>Partyzantów 10</li>
