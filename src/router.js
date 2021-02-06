@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 Vue.use(Router);
 
 export const router = new Router({
-    mode: "history",
+    mode: "hash",
     routes: [
         { path: '/', component: Offer, meta: { title: 'Oferta' } },
         { path: '/contact', component: Contact, meta: { title: 'Kontakt' } }
