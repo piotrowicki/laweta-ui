@@ -46,10 +46,10 @@
         </b-form>
       </b-col>
       <b-col cols="12" md="4" style="margin-top: 1%;">
-        <p class="h1 mb-2"><b-icon icon="envelope-open"> </b-icon> EMAIL</p>
+        <p><b-icon icon="envelope-open"> </b-icon> EMAIL</p>
         <p>dgcar@wp.pl</p>
         <hr />
-        <p class="h1 mb-2"><b-icon icon="phone"> </b-icon> TELEFON</p>
+        <p><b-icon icon="phone"> </b-icon> TELEFON</p>
         <p>505 582 392</p>
       </b-col>
     </b-row>
