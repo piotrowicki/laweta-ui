@@ -1,5 +1,5 @@
-* {
-  background: url('metal.jpg') no-repeat center center fixed;
+body {
+  background: url('/img/metal.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-size: calc(8px + 0.6vw);
