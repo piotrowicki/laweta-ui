@@ -5,5 +5,22 @@
 </template>
 
 <script>
-export default {};
+import LawetaService from "../services/LawetaService";
+
+export default {
+  methods: {
+    contact() {
+      LawetaService.contact()
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((e) => {
+          console.log(e);
+        });
+    },
+  },
+  mounted() {
+    this.contact();
+  },
+};
 </script>
