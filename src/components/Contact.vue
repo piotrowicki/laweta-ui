@@ -14,7 +14,6 @@
               v-model="form.email"
               type="email"
               required
-              disabled
             ></b-form-input>
           </b-form-group>
 
@@ -27,7 +26,6 @@
               id="input-2"
               v-model="form.name"
               required
-              disabled
             ></b-form-input>
           </b-form-group>
 
@@ -38,11 +36,10 @@
               placeholder="Napisz coś..."
               rows="3"
               max-rows="6"
-              disabled
             ></b-form-textarea>
           </b-form-group>
 
-          <b-button type="submit" variant="primary" disabled>Wyślij</b-button>
+          <b-button type="submit" variant="primary">Wyślij</b-button>
         </b-form>
       </b-col>
       <b-col cols="12" md="4" style="margin-top: 1%;">
