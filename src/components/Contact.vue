@@ -36,6 +36,7 @@
               placeholder="Napisz coś..."
               rows="3"
               max-rows="6"
+              required
             ></b-form-textarea>
           </b-form-group>
 
@@ -51,7 +52,6 @@
       </b-col>
     </b-row>
     <br />
-    <b-alert show variant="warning">Strona w budowie.</b-alert>
     <b-alert :show="error" variant="warning">{{ msg }}</b-alert>
     <b-alert :show="success" variant="info">{{ msg }}</b-alert>
   </b-container>
@@ -90,11 +90,13 @@ export default {
           console.log(response);
           this.msg = "Wiadomość wysłana pomyślnie.";
           this.success = true;
+          this.form = "";
         })
         .catch((e) => {
           console.log(e);
           this.msg = "Problem z wysłaniem wiadomości";
           this.error = true;
+          this.form = "";
         });
     },
   },
